@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastext | Chat</title>
+</head>
+
+<body  class="chat-page-body">
+    <div>
+        <div class="chatroom-header">
+            <div class="back-arr">
+                <img onclick="location.href ='users.html'" src="Images/arrow-121-xxl.png" alt="">
+            </div>
+            <div class="profile-and-name">
+                <div class="profile-pic"><img id="chat-user-img" src="Images/profile.jpg" alt=""></div>
+                <div class="user-name"><span id="opened-chat-user"> </span></div>
+            </div>
+            <div class="three-dots">
+                <img src="Images/menu4.png" alt="">
+            </div>
+        </div>
+
+        <!-- Messages -->
+        <div id="messages" class="messages">
+
+        </div>
+
+        <!-- mesg inp -->
+        <div class="send-msg">
+            <div class="smily-emoji-div">
+                <!--emoji work  -->
+                <div class="row" style="position: relative;">
+                    
+
+                </div>
+                <!-- ends -->
+                <img src="Images/smile2.png" alt="">
+            </div>
+            <div class="msg-inp"><input type="text" id="msg-inp" placeholder="Write message..."></div>
+            <div class="voice-rec"><img id="send-btn" onclick="senddMessage()" src="Images/send.png" alt=""></div>
+        </div>
+    </div>
+
+
+    <script type="module" src="app.js"></script>
+    <script type="module" src="firebase.js"></script>
+</body>
+
+</html>

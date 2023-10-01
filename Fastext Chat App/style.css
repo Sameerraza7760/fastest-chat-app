@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #252331;
+    font-family: consolas;
+}
+.getstarted-btn {
+    /* position: relative;
+    display: inline-block; */
+    width: 200px;
+    padding: 15px 30px;
+    color: #17b67c;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+  border: 2px solid  #17b67c;
+}
+
+
+
+.getstarted-btn:hover {
+    /* color: #118359; */
+    color: white;
+    background: #17b67c;
+    box-shadow: 0 0 10px #17b67c, 0 0 40px #17b67c, 0 0 80px #17b67c;
+    transition-delay: 0.3s;
+    cursor: pointer;
+    
+}
+
+
+/* logo */
+.fastext-logo{
+    width: 125px;
+    height: 120px;
+    
+
+}
+.logo-heading{
+    margin-top:12px;
+}
+.fastext-logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logo-heading{
+    color: white;
+}
+
+
+
+/* Account Register */
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+
+a {
+	color: #17b67c;
+	text-decoration: none;
+	transition: 1s;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #66f1be;
+	opacity: 0.8;
+	transition: 1s;
+}
+
+p {
+	color: #cacaca;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+/* =============================================================================== */
+
+section.form {
+	opacity: 1;
+	background-color: transparent;
+	padding: 20px;
+	text-align: center;
+  	color: #cacaca;
+}
+
+.center {
+	margin-right: auto;
+  	margin-left: auto;
+  	display: block;
+  	width: 400px;
+  	/* margin-top: 100px; */
+  	margin-bottom: 60px;
+}
+
+input {
+	opacity: 0.4;
+	border-radius: 20px;
+	padding: 10px;
+	width: 80%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	box-shadow: none;
+	color: #fff;
+  font-size: 16px;
+	border: none;
+	background-color: #5d5d5d;
+	transition: 1s;
+	border: 2px solid transparent;
+}
+
+input:focus, input:hover {
+	transition: 1s;
+	border: 2px solid #5d5d5d;
+  color: white;
+	background-color: transparent;
+}
+
+.name-surname {
+	width: 36%;
+	display: inline;
+}
+
+button {
+	width: 86%;
+	border-radius: 20px;
+	background-color: #cacaca;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	box-shadow: none;
+	text-shadow: none;
+	border: none;
+  font-size: 17px;
+	padding: 10px;
+	font-family: 'Abel', sans-serif;
+	transition: 1s;
+}
+
+button:hover {
+	background-color: #17b67c;
+	transition: 1s;
+  color: white;
+  cursor: pointer;
+}
+input::placeholder{
+  color: white;
+}
+
+
+/* file */
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #17b67c;
+  /* padding: 10px 20px; */
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  /* transition: background .2s ease-in-out; */
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #17b67c;
+}
+
+
+.upload-profile{
+  color: white;
+  font-family: consolas;
+}
+
+.login-btn{
+  margin-top: 40px;
+}
+.regi-btn{
+  margin-top: 40px;
+}
+

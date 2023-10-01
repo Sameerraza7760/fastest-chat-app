@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fastext | Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- NAVIGATION STARTS HERE -->
+
+  <div class="get-started">
+    <div class="fastext-logo"><img src="Images/5.png" alt=""><br>
+    </div>
+    <h1 class="logo-heading">Fastext</h1>
+  </div>
+  <h1 class="logo-heading">Register Here!</h1>
+  </div>
+  <section class="form">
+    <div class="center">
+
+
+      <input class="name-surname" id="fName" type="text" name="name" placeholder="First Name">
+      <input class="name-surname" id="lName" type="text" name="surname" placeholder="Last Name">
+      <input type="text" id="email" name="email" placeholder="Email">
+      <input type="password" name="password" id="password" placeholder="Password">
+      <span class="upload-profile"> Upload Your Profile Picture</span>
+      <input type="file" name="" id="image-input">
+      <button class="regi-btn" onclick="signUp()">Register</button>
+      <p>Already have an account? <a href="login.html">Login Here</a></p>
+    </div>
+
+  </section>
+
+
+
+
+
+
+  <!-- SweetAlerts -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <!--  -->
+  
+  <script type="module" src="app.js"></script>
+  <script type="module" src="firebase.js"></script>
+</body>
+
+</html>

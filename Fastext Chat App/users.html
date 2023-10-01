@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastext | Users</title>
+    <link rel="stylesheet" href="users.css">
+</head>
+
+<body >
+
+    <div class="main-users-container">
+
+        <div class="header">
+            <div class="users-header">
+                <div class="logo-div">
+                    <img src="Images/5.png" alt="" srcset="">
+                </div>
+                <div class="fastext-head">
+                    <h1>FASTEXT</h1>
+                </div>
+                
+
+                <div class="profile-div">
+                    <img src="Images/profile.jpg" id="currentProfile" onclick="openDropdown()" class="dropbtn" alt="" srcset="">
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="" id="currentUserName">Profile</a>
+                        <a href="">Settings & privacy</a>
+                        <a href="login.html" onclick="logout()">Logout</a>
+                    </div>
+                </div>
+                
+                <!-- 2nd method -->
+                <!-- Dropbdown Logout -->
+                <!-- <div class="profile">
+                    <button onclick="openDropdown()" class="dropbtn">Dropdown</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Settings & privacy</a>
+                        <a href="#">Logout</a>
+                        <a href="#">Profile</a>
+                    </div>
+                </div> -->
+                <!--  -->
+
+
+
+
+            </div>
+
+            <div class="search-users">
+                <div class="search-input"><input type="text" placeholder="Search here..."></div>
+                <div class="search-icon"><svg id="icon-search" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                        fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg></div>
+            </div>
+        </div>
+
+        <!-- Users -->
+        <div id="all-users">
+            <!-- <div class="user-item-div">
+                <div class="user-item-left-profile">
+                    <div class="user-pic">
+                        <img src="Images/profile.jpg" alt="">
+                    </div>
+                    <div class="user-item-left-name-and-message">
+                        <div class="user-item-name"><span>username</span></div>
+                        <div  class="user-item-last-msg"><span>last message</span></div>
+                    </div>
+                </div>
+
+                <div class="user-item-right-profile">
+                    <div class="last-msg-time">
+                        <span id="last-msg-time">6:59 PM<span>
+                    </div>
+                    <div class="no-of-msgs">
+                        <span id="not-seen-msgs-index">2</span>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script type="module" src="app.js"></script>
+    <script type="module" src="firebase.js"></script>
+</body>
+
+</html>
